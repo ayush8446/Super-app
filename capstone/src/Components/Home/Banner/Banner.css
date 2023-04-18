@@ -1,0 +1,66 @@
+.ban{
+    position: relative;
+
+}
+
+.ban img{
+    width: 50vw;
+    height: 100vh;
+    /* height: 100%; */
+    /* width: 100%; */
+    /* width: auto; */
+}
+
+.ban h1{
+    position: absolute;
+    width: 43.438rem;
+    height: 8.938rem;
+    left: 3.875rem;
+    top: 31.25rem;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.438rem;
+    /* line-height: 141.69%; */
+    /* or 78px */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+.alreadylogin {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    justify-content: space-evenly;
+    padding: 1.25rem;
+}
+
+.alreadylogin h3{
+    width: 20rem;
+    margin-right: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 108.69%;
+    /* or 30px */
+
+    letter-spacing: 0.02em;
+
+
+}
+
+.alreadylogin button{
+    width: 7.375rem;
+    height: 2.375rem;
+    background: #72DB73;
+    border-radius: 2.063rem;
+    border-color: #72DB73;
+}

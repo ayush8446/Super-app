@@ -1,0 +1,88 @@
+.form{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(1,1,0);
+    color: white;
+}
+.rrt{
+    padding: 0;
+    margin: 0;
+}
+.rr{
+    font-family:'Single Day';
+    line-height: 109.69%;
+    color: #72DB73;
+    font-size: 2.2rem;
+    padding: 0;
+}
+
+.green{
+    color: #72DB73;
+}
+
+.formBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formBody input{
+    margin-top: 0.625rem;
+    width: 26.125rem;
+    height: 2.354rem; 
+    background: #292929;
+    border-radius: 5px;
+}
+
+.formBody button{
+    width: 26.75rem;
+    height: 2.813rem;
+    background: #72DB73;
+    border-radius: 1.75rem;
+}
+
+.formBody p{
+    width: 32.375rem;
+    height: 1.438rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: .938rem;
+    line-height: 111.7%;
+    /* or 26px */
+    margin-left: 5.625rem;
+    letter-spacing: 0.02em;
+
+    color: #7C7C7C;
+}
+
+.checkbox-container{
+    margin-left: -6.875rem;
+    padding: 1.875rem;
+    display: flex;
+    color: #7C7C7C;
+    
+}
+.checkbox-container input{
+
+    width: 1.125rem;
+    height: 1.125rem;
+    margin-top: .188rem;
+    background-color: #D9D9D9;
+}
+
+.checkbox-container label{
+    padding-left: .625rem;
+}
+
+.error {
+    border-color: red;
+  }
+  
+.error-message {
+    color: red;
+    font-size: 0.8rem;
+  }
