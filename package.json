@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "react-chips": "^0.8.0",
     "react-google-font-loader": "^1.1.0"
   }
 }

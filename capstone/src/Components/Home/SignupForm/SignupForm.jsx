@@ -19,6 +19,18 @@ const SignupForm = () => {
     setErrors(validateForm({...formValues, [event.target.name]: event.target.value}))
   };
 
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+    const formErrors = validateForm(formValues);
+    if(Object.keys(formErrors).length === 0) {
+      // form is valid
+      localStorage.setItem('formValues', JSON.stringify(formValues))
+      alert("form values stored")
+    } else {
+      // form has errors
+      setErrors(formErrors);
+    }
+  }
 
 
   const validateForm = (values) => {
@@ -47,7 +59,7 @@ const SignupForm = () => {
       <h3 className='rr'>Super app</h3>
       <p className='rrt'>Create your new account</p>
       <h3>Email&nbsp; | &nbsp;Google</h3>
-      <form className="formBody"  >
+      <form className="formBody" onSubmit={handleFormSubmit} >
         <div className="form-field">
           <input 
             type="text"

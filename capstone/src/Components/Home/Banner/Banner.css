@@ -6,9 +6,7 @@
 .ban img{
     width: 50vw;
     height: 100vh;
-    /* height: 100%; */
-    /* width: 100%; */
-    /* width: auto; */
+
 }
 
 .ban h1{
@@ -17,18 +15,14 @@
     height: 8.938rem;
     left: 3.875rem;
     top: 31.25rem;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 3.438rem;
-    /* line-height: 141.69%; */
-    /* or 78px */
-
     letter-spacing: 0.02em;
-
     color: #FFFFFF;
 }
+
 .alreadylogin {
     position: absolute;
     top: 15%;
@@ -44,17 +38,13 @@
 
 .alreadylogin h3{
     width: 20rem;
-    margin-right: 15px;
+    margin-right: 0.8rem;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 1.75rem;
     line-height: 108.69%;
-    /* or 30px */
-
     letter-spacing: 0.02em;
-
-
 }
 
 .alreadylogin button{
