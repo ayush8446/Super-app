@@ -1,9 +1,10 @@
 import Category from "../Components/Genre/Category";
+import cardData from "../Components/Genre/cardData";
 
 export function Genre(){
     return (
-        <div>
-            <Category/>
-        </div>
+        <>
+            <Category details={cardData}/>
+        </>
     )
 }

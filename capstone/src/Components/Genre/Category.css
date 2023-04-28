@@ -1,53 +1,100 @@
-.body{
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
+.container{
+    position: relative;
+    background:black;
+    max-width: 100vw;
+    max-height: 100vh;
+    padding-bottom: 0;
     display: flex;
-}
-
-.right{
-    width: 15vw;
-    height: 20vh;
-    padding-top: 2vh;
-    margin-bottom: 3vh;
-    display: grid;
-    gap: 5px;
-    grid-template-columns: repeat(3,1fr);
-}
-
-.left{
-    width: 50vw;
-    height: 80vh;
-    padding-top: 10vh;
-    text-align: center;
-    padding-left: 5vw;
     box-sizing: border-box;
 }
-
-.heading{
-    font-size: 3rem;
+.left{
+    width: 40%;
+    height: 100vh;
+    padding:4rem;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+.iconName{
+    font-family: 'single day',cursive;
     color: #72DB73;
-    font-family:'Single Day';
-    text-align: left;
-}
+    font-size: 2rem;
+    letter-spacing: 0.025em;
+    margin: 0;
 
-.subHeading{
-    font-family: 'Roboto';
-    font-style: normal;
+}
+.heading{
+    font-size: 3.5rem;
+}
+.right{
+    width: 60%;
+    height:80vh;
+    margin-left: 10rem;
+    padding:4rem;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap:10px;
+}
+.card{
+    width:12rem;
+    height:11rem;
+    padding:1.3rem;
+    background: blueviolet;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+.cardSelected{
+    width:14rem;
+    height:12rem;
+    padding:1.3rem;
+    background: blueviolet;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 5px solid #72DB73  ;
+}
+.title{
+    font-size: 1.4rem;
     font-weight: 700;
-    font-size: 3rem;
-    color: white;
-    text-align: left;
-    margin-top: 4vh;
+    padding-bottom: 5px;
+    color: #ffffff;
+}
+.cardimg{
+    transform: scale(0.75) ;
+    margin-left: -1.8rem;
+    
+}
+.choice {
+    margin: 0 10px;
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.signUp{
-    color:white;
+.choiceTag {
+    display: flex;
+    gap: 5px;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 99.19%;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    padding: 8px 10px;
+    background:  #148A08;
+    border-radius: 18px;
+}
+
+.choiceTag span {
+    cursor: pointer;
+}
+.nextButton{
+    position: absolute;
+    bottom: 2rem;
+    right: 6rem;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    color: white;
     background: #148A08;
-    border-radius:12px;
-    position:absolute;
-    bottom:1vh;
-    right:10vw;
-    border: none;
-    padding: 12px 25px;
+    border-radius: 15px;
 }
